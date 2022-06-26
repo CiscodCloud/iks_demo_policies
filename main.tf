@@ -85,7 +85,7 @@ module "network" {
 #  org_name = local.organization
 #}
 
-module "k8s_version_1-19-15-iks3" {
+module "k8s_version_1-21-13-iks0" {
   source           = "terraform-cisco-modules/iks/intersight//modules/version"
   version = "2.2.0"
   policyName     = local.k8s_version_name
